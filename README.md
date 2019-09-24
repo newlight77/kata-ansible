@@ -1,8 +1,6 @@
-# workshop-ansible
+# kata-ansible
 
 This kata will guide you to learn Ansible, with code snippets and demonstration.
-
-This workshop will guide you through everything you need to learn about Ansible.
 
 ## Requirements
 
@@ -67,6 +65,8 @@ EOF
 ansible -m ping target
 ansible -m command -a whoami -b target
 ```
+
+***Note*** : Here we can ping the target because it's defined in the inventory.
 
 ## Workshop
 
